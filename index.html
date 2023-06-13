@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fefbaa8eb2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <title>subin's portfolio</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <main>
+        <header>    
+            <div class="buttons">
+                <ul class="button-list">
+                    <li><a href="#profile" class="h-button black">profile</a></li>
+                    <li><a href="#skills" class="h-button black">skills</a></li>
+                    <li><a href="#projects" class="h-button black">projects</a></li>
+                    <li><a href="#contact" class="h-button black">contact</a></li>
+                </ul>
+                <button onclick="up()" class="top"><i class="fa-solid fa-circle-arrow-up"></i>TOP</button>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <div class="cover">
+            <div class="container">
+                <h1>This is Subin's Portfolio!</h1>
+            </div>
+            <button type="button" class="scrolled" onclick="f(event)">SCROLL
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"><path d="M35.9375 26.8755L25 37.813L14.0625 26.8755" stroke="white" stroke-width="2" stroke-linejoin="round"></path><path d="M25 37.5L25 10.9375" stroke="white" stroke-width="2" stroke-linejoin="round"></path></svg>
+            </button>
+        </div>
+
+        <!-- PROFILE -->
+        <section id="profile">
+            <h1><span style="color: #fa6e91;">||</span> PROFILE <span style="color: #fa6e91;">||</span></h1>
+            <div class="wrapper border">
+                <div class="keyword">
+                    <h2>[ Keyword for Introduce ]</h2>
+                    <dl class="">
+                        <dt><span style="color: #fa6e9163;">H</span>onest</dt>
+                        <dd>한 걸음씩 꾸준히 나아가기 위해 학습과 기록을 습관화 하였습니다.</p></dd>
+                    </dl>
+                    <dl>
+                        <dt><span style="color: #fa6e9163;">C</span>hallenging</dt>
+                        <dd>새로운 분야에 대하여 거부감보다는 호기심과 도전의식으로 받아들입니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt><span style="color: #fa6e9163;">P</span>ositive</dt>
+                        <dd>마음가짐에 따라 주어진 상황을 해석하기에 긍정적인 태도를 갖추기 위해 노력합니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt><span style="color: #fa6e9163;">I</span>nquisitive</dt>
+                        <dd>정치와 무역을 전공하며 세상에 대한 넓은 식견을 익힐 수 있었으며 비단 하나의 시각에 얽매이지 않고 자유롭게 사고할 수 있는 능력을 함양했습니다.</dd>
+                    </dl>
+                    <dl>
+                        <dt><span style="color: #fa6e9163;">V</span>arious experiences</dt>
+                        <dd>여행과 봉사활동, 교환학생, 아르바이트등을 통해 많은 사람들과 함께하며 교훈을 얻고 성장하였습니다. 이는 앞으로 개발자로서의 삶에 풍부한 양분이 될 것입니다.</dd>
+                    </dl>
+                </div>
+                <div class="edu">
+                    <h2>[ Education ]</h2>
+                    <div class="edu-list">
+
+                        <div class="education">
+                            <h4>소사고등학교</h4>
+                            <p class="date">2014.03 ~ 2017.02</p>
+                            
+                        </div>
+                        <div class="education">
+                            <h4>숭실대학교</h4>
+                            <p class="date">2017.03 ~ 2023.02</p>
+                            <p>정치외교학 전공</p>
+                            <p>글로벌통상학 복수전공</p>
+                            <br>
+                            <p>캄보디아 교육봉사활동</p>
+                            <p class="date">2018.09 ~ 2018.12</p>
+                            <br>
+                            <br>
+                            <p>체코 교환학생</p>
+                            <p class="date">2020.02 ~ 2020.06</p>
+                        </div>
+                        <div class="education">
+                            <h4>코리아IT 아카데미</h4>
+                            <p class="date">2022.10 ~ 2023.05</p>
+                            <hr>
+                            <h5>- Java 단과 과정 수강</h5> <p>언어와 기초적인 자료구조, CS개념을 익혔습니다.</p>
+                            <h5>- 웹개발 과정 수강</h5> <p> spring, springboot 프레임워크를 이용한 웹개발과정을 수강하며 SQL, TDD, git와 같은 웹개발에 필요한 개념들을 익힐 수 있었습니다.</p>
+                            <h5>- 프론트엔드 과정 수강</h5> <p>HTML, CSS, JavaScript 활용법을 익혔으며 JavaScript를 기반으로 React.js를 활용한 웹개발을 배우고 실습했습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="back-black">
+            <!-- SKILLS -->
+            <section id="skills">
+                <h1><span style="color: #fa6e91;">||</span> SKILLS <span style="color: #fa6e91;">||</span></h1>
+                <div id="item1" class="item">
+                    <div class="skill-icon">
+                        <img src="img\html css js.png"> <img src="img\react.png"> <img src="img\nodejs.png" alt=""><br>
+                        <img style="height: 80px;" src="img\java.png" alt=""> <img style="height: 80px;" src="img\spring.png" alt=""> <img src="img\springboot.png" alt=""> <br>
+                        <img style="height: 40px" src="img\MongoDB.png" alt=""> <img src="img\mysql.png" alt=""> <img src="img\thymeleaf.png" alt=""> <br>
+                        <img style="height: 50px" src="img\tailwind.png" alt=""> <img style="height: 30px" src="img\git.png" alt=""> <img src="img\github.png" alt="">
+                    </div>
+                    <div class="skill-name">
+                        <div class="names">
+                            <div>
+                                <p>- HTML</p>
+                                <p>- CSS</p>
+                                <p>- JavaSript</p>
+                                <p>- React.js</p>
+                                <p>- node.js</p>
+                            </div>
+                            <div>
+                                <p>- Java</p>
+                                <p>- Spring</p>
+                                <p>- SpringBoot</p>
+                                <p>- Thymeleaf</p>
+                                <p>- TailwindCSS</p>
+                            </div>
+                            <div>
+                                <p>- mongoDB</p>
+                                <p>- MySQL</p>
+                                <p>- git</p>
+                                <p>- GitHub</p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section id="projects">
+                <div class="index">
+                    <ul>
+                        <li id="switchB">BE</li>
+                        <li id="switchF" class="active">FE</li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h1><span style="color: #fa6e91;">||</span> PROJECTS <span style="color: #fa6e91;">||</span></h1>
+                    
+                    <div id="front">
+                        <div id="item2" class="item wrapper">
+                            <h3>1. 부산 맛집 지도</h3>
+                            <div class="project-box">
+                                <div class="imgs">
+                                    <img src="img\busan2.PNG" alt="">
+                                    <img src="img\busan4.PNG" alt="">
+                                </div>
+                                <div class="description">
+                                    <h4><i class="fa-solid fa-star"></i> 개발 주요사항</h4>
+                                    <p> - React 사용경험 및 숙련도 향상을 위해 진행한 개인 사이드 프로젝트</p>
+                                    <p> - 부산시청에서 배포한 공공API를 이용한 맛집 소개 지도</p>
+                                    <p> - kakao맵 API로 전체 맛집 또는 단일 맛집 위치 표시</p>
+                                    <p> - LocalStorage를 이용하여 백앤드 없이 닉네임 및 즐겨찾기 목록 저장</p>
+                                    <p> - Math.random메서드를 이용한 모달 형태의 랜덤 맛집 추천기능 구현</p>
+                                    <p></p>
+                                    <h4><i class="fa-solid fa-atom"></i> 기술 스택</h4>
+                                    <p> - React.js</p>
+                                    <p> - Tailwind</p>
+                                    <p> - Git</p>
+                                    <h4><i class="fa-solid fa-pen-nib"></i> 배운점</h4>
+                                    <p>반복되는 코드를 줄이고 함수컴포넌트의 재사용에 신경쓰며 제작했습니다. 
+                                        공공 API 사용이 익숙하지 않아 데이터를 불러오는 데에 시간이 걸렸지만 이 프로젝트를 통해 API에 대해 이해하며 데이터의 시각화에 대해 고민하는 시간을 가질 수 있었습니다.
+                                        
+
+                                    </p>
+                                    <h4><i class="fa-solid fa-paperclip"></i>배포링크</h4>
+                                    <a href="https://busan-eat.netlify.app">https://busan-eat.netlify.app</a>
+                                    <h4><i class="fa-brands fa-github"></i> 자세히 보기</h4>
+                                    <a href="https://github.com/subin9804/dubidubob/tree/master/busan-eat">busan-eat 레포지토리 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div id="item3" class="item wrapper">
+                            <h3>2. 인스타그램 서비스 클론코딩</h3>
+                            <div class="project-box">
+                                <div class="imgs">
+                                    <img src="img\insta.png" alt="">
+                                    <img src="img\insta02.png" alt="">
+                                </div>
+                                <div class="description">
+                                    <h4><i class="fa-solid fa-star"></i> 개발 주요사항</h4>
+                                    <p> - React.js와 Node.js, express를 이용하여 프론트와 백엔드 모두 구현</p>
+                                    <p> - MongoDB로 아티클, 유저 등의 정보를 저장하며 NoSQL의 사용을 익힘</p>
+                                    <p> - passport와 jwt를 사용하여 로그인 기능 구현</p>
+                                    <p> - 유저 검색기능, 팔로우 기능, 댓글 기능 구현</p>
+                                    <p></p>
+                                    <h4><i class="fa-solid fa-atom"></i> 기술 스택</h4>
+                                    <table>
+                                        <tr>
+                                            <td> - React.js</td>
+                                            <td> - express</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - MongoDB</td>
+                                            <td> - Passport</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - Tailwind</td>
+                                            <td> - Git</td>
+                                        </tr>
+                                    </table>
+
+                                    <h4><i class="fa-solid fa-pen-nib"></i> 배운점</h4>
+                                    <p>
+                                        서버와 클라이언트를 모두 다뤄보게 되면서 두 분야 사이의 역할과 관계에 대해 이해할 수 있었습니다. 
+                                        Node.js로 처름 백엔드를 구성해보는 것은 어려웠으나, 생소했던 미들웨어나 cors 등의 개념들을 검색하고 알아가며 차근차근 구현하는 과정에서 많은 것들을 배웠습니다.
+                                        또한 주로 MySQL을 사용했던 데에 반해 NoSQL인 MongoDB를 사용해봄으로써 NoSQL과 관계형 DB사이의 장단점을 비교해 볼 수 있었습니다.
+                                    </p>
+                                    <h4><i class="fa-brands fa-github"></i> 자세히 보기</h4>
+                                    <a href="https://github.com/subin9804/Instagram-clone.git">instagram-clone 레포지토리 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Back -->
+                    <div id="back" class="hidden">
+                        <div id="item4" class="item wrapper">
+                            <h3>1. 도서관리시스템</h3>
+                            <div class="project-box">
+                                <div class="imgs">
+                                    <img src="img\library2.PNG" alt="">
+                                    <img src="img\library3.PNG" alt="">
+                                </div>
+                                <div class="description">
+                                    <h4><i class="fa-solid fa-star"></i> 개발 주요사항</h4>
+                                    <p> - 웹개발 강의 수강 후 제작한 팀프로젝트</p>
+                                    <p> - 도서관리 시스템을 구축하여 유저정보, 도서정보, 대여정보를 관리하는 프로젝트</p>
+                                    <p> - pagination과 옵션을 추가한 검색기능 구현</p>
+                                    <p> - Spring Security로 로그인 기능 구현</p>
+                                    <p> - user와 admin으로 권한을 달리하여 특정 페이지에 대한 접근 통제기능</p>
+                                    
+                                    <h4><i class="fa-solid fa-atom"></i> 기술 스택</h4>
+                                    <table>
+                                        <tr>
+                                            <td> - Java</td>
+                                            <td> - SpringBoot</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - Thymeleaf</td>
+                                            <td> - Maven</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - SpringSecurity</td>
+                                            <td>  - MySQL</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - Git</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+                                    <h4><i class="fa-solid fa-pen-nib"></i> 배운점</h4>
+                                    <p>
+                                        SpringBoot로 진행한 첫 팀프로젝트로 저는 백엔드에서 대출기능과 도서정보 관리기능을 맡아 구현했습니다.
+                                        Pagination과 검색기능, Jpa나 Querydsl에 대해 공부해볼 수 있는 좋은 기회였으며 SpringSecurity로 더 안전하게 개인정보를 관리하도록 했습니다. 
+                                    </p>
+                                    <h4><i class="fa-brands fa-github"></i> 자세히 보기</h4>
+                                    <a href="https://github.com/Skyharang/Library_project.git">Library_project 레포지토리 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div id="item5" class="item wrapper">
+                            <h3>2. 스프링부트 게시판</h3>
+                            <div class="project-box">
+                                <div class="imgs">
+                                    <img src="img\board.PNG" alt="">
+                                    <img src="img\board2.PNG" alt="">
+                                </div>
+                                <div class="description">
+                                    <h4><i class="fa-solid fa-star"></i> 개발 주요사항</h4>
+                                    <p> - 필요한 용도로 커스텀할 수 있는 게시판 제작 프로젝트</p>
+                                    <p> - SpringSecurity, H2database, thymeleaf 등의 의존성 사용</p>
+                                    <p> - 파일 업로드 설정, 조회수 기록 기능 구현</p>
+                                    <p> - 에러 페이지 설정</p>
+                                    <p> - 테스트코드 사용</p>
+
+                                    <h4><i class="fa-solid fa-atom"></i> 기술 스택</h4>
+                                    <table>
+                                        <tr>
+                                            <td> - Java</td>
+                                            <td> - SpringBoot</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - Thymeleaf</td>
+                                            <td> - Maven</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - SpringSecurity</td>
+                                            <td>  - MySQL</td>
+                                        </tr>
+                                        <tr>
+                                            <td> - Git</td>
+                                            <td></td>
+                                        </tr>
+                                    </table>
+
+                                    <h4><i class="fa-solid fa-pen-nib"></i> 배운점</h4>
+                                    <p>
+                                        다수의 파일을 업로드하도록 만드는 파일 업로드 설정과 중복되지 않는 조회수 기록 기능을 구현하기 위한 공부를 했습니다.
+                                        이외에도 테스트코드 작성을 시도해보았고 비밀번호 유효성검사를 위해 정규식을 익혔습니다.
+                                    </p>
+                                    </p>
+                                    <h4><i class="fa-brands fa-github"></i> 자세히 보기</h4>
+                                    <a href="https://github.com/subin9804/SpringBoard.git">Springboot board 레포지토리 바로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="bg">
+                <div class="contact-box wrapper">
+                    <h1><span style="color: #fa6e91;">||</span> CONTACT <span style="color: #fa6e91;">||</span></h1>
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-phone"></i> TEL : 
+                            </td>
+                            <td>+82 10 9878 9359</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-sharp fa-regular fa-envelope"></i> Email : 
+                            </td>
+                            <td>subin9804@naver.com</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-brands fa-github"></i> GitHub : 
+                            </td>
+                            <td><a href="https://github.com/subin9804" target="_blank">https://github.com/subin9804</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="fa-sharp fa-regular fa-pen-to-square"></i> Blog : 
+                            </td>
+                            <td><a href="https://oolilyoo.tistory.com" target="_blank">https://oolilyoo.tistory.com</a></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+                
+                
+        </section>
+
+        
+        <footer>
+        </footer>
+    </main>
+    <script src="zigzag.js"></script>
+</body>
+</html>
